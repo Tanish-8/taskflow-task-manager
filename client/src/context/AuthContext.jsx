@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 // Create axios instance with interceptor
 const api = axios.create({
-  baseURL: '',
+  baseURL: 'https://taskflow-task-manager-h3zv.onrender.com',
 });
 
 api.interceptors.request.use((config) => {
